@@ -1,5 +1,4 @@
-@charset "utf-8";
-/* http://meyerweb.com/eric/tools/css/reset/ 
+/* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
 */
@@ -148,13 +147,13 @@ html {
 }
 /*******/
 .background-primary {
-  background-color: #373430;
+  background-color: pink;
 }
 .background-secondary {
-  background-color: #FFE2B7;
+  background-color: paleturquoise;
 }
 .background-tertiary {
-  background-color: #fffaf2;
+  background-color: purple;
 }
 body {
   font-family: "mr-eaves-sans", sans-serif;
@@ -180,7 +179,7 @@ body {
   }
 }
 header {
-  color: #FFE2B7;
+  color: paleturquoise;
   text-align: center;
 }
 header .row {
@@ -236,7 +235,7 @@ header li {
   }
 }
 nav {
-  background-color: #DDB97F;
+  background-color: paleturquoise;
   text-align: center;
   line-height: 1.5em;
 }
@@ -288,12 +287,13 @@ section {
 section h1,
 section h2 {
   font-family: "reklame-script", serif;
-  color: #373430;
+  color: skyblue;
+  font-size: 2rem;
   font-weight: 400;
   margin: 5px 10px;
 }
 section h1 {
-  border-bottom: 1px solid #835B1B;
+  border-bottom: 1px solid hotpink;
 }
 #section2 article,
 #section3 article {
@@ -315,7 +315,7 @@ section h1 {
   }
 }
 #section1 p {
-  color: #835B1B;
+  color: hotpink;
   font-style: italic;
   margin: 5px;
 }
@@ -370,14 +370,14 @@ article {
   margin: 5px;
 }
 #article5 span {
-  color: #835B1B;
+  color: hotpink;
   font-style: italic;
 }
 #article5 .sep {
   font-size: 1.3em;
   font-style: normal;
   font-weight: 700;
-  color: #835B1B;
+  color: hotpink;
 }
 #article6 h2 {
   text-align: center;
@@ -418,7 +418,7 @@ article {
 }
 #tag3 {
   font-size: 3em;
-  color: #835B1B;
+  color: hotpink;
 }
 #tag4 {
   font-size: 1.9em;
@@ -434,7 +434,7 @@ article {
 }
 #tag7 {
   font-size: 3em;
-  color: #835B1B;
+  color: hotpink;
 }
 #tag8 {
   font-size: 1.7em;
@@ -468,7 +468,7 @@ article {
   color: #835B1B;
 }
 footer {
-  color: #FFE1B7;
+  color: hotpink;
   text-align: center;
   display: flex;
   flex-flow: row;
@@ -495,13 +495,13 @@ footer h2 {
   justify-content: center;
 }
 footer a {
-  color: #FFE1B7;
+  color: hotpink;
   margin: 0px 5px;
   transition: all 0.3s ease 0s;
 }
 footer a:hover {
   cursor: pointer;
-  color: #DDB97F;
+  color: skyblue;
 }
 footer img {
   margin-left: 10px;
